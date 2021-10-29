@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+"totalResults": 6512,
+"articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Mail"
+                },
+                "author": "Sam Joseph Semon",
+                "title": "Katey Sagal's husband Kurt Sutter makes a lighthearted joke as wife recovers after being hit by car",
+                "description": "He also wrote: 'She's the only one bringing in money right now… so I'll be picking her up from the hospital later, taking her to that Dancing With the Stars audition #fingerscrossed.'",
+                "url": "https://www.dailymail.co.uk/tvshowbiz/article-10098171/Katey-Sagals-husband-Kurt-Sutter-makes-lighthearted-joke-wife-recovers-hit-car.html",
+                "urlToImage": "https://i.dailymail.co.uk/1s/2021/10/16/05/49241767-0-image-a-42_1634359045281.jpg",
+                "publishedAt": "2021-10-16T05:12:36Z",
+                "content": "Katey Sagal's husband, Kurt Sutter, gave an update about his wife's health after she was hit by a car to his Instagram account on Friday.\r\nThe 61-year-old producer shared a screenshot of a Deadline a… [+3162 chars]"
+                },
+                {
+                "source": {
+                "id": null,
+                "name": "Juancole.com"
+                },
+                "author": "Clean Energy Wire",
+                "title": "Germany: Tesla’s Electric Car sales overtake leading domestic automakers in September",
+                "description": "By Edgar Meza | - ( Clean Energy Wire) - Tesla is flying high in Germany: In September, more electric Tesla Model 3s were registered in the country than leading domestic models, such as the BMW 3 Series, Audi A4 and Mercedes C-Class combined, business news ma…",
+                "url": "https://www.juancole.com/2021/10/electric-automakers-september.html",
+                "urlToImage": "https://www.juancole.com/images/2021/10/germany-teslas-electric-car-sale.jpg",
+                "publishedAt": "2021-10-16T04:06:57Z",
+                "content": "By Edgar Meza | – \r\n( Clean Energy Wire) – Tesla is flying high in Germany: In September, more electric Tesla Model 3s were registered in the country than leading domestic models, such as the BMW 3 S… [+2046 chars]"
+                },
+                {
+                "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+                },
+                "author": "Eliot Brown",
+                "title": "Today’s Tech Founders Don’t Just Own the Company. They’re Also Getting Huge Pay Packages. - The Wall Street Journal",
+                "description": "Startup creators once tended to take little or no remuneration as CEOs. Now, some are getting giant stock awards, making them among America’s best-compensated corporate chiefs.",
+                "url": "https://www.wsj.com/articles/silicon-valley-tech-startup-founder-pay-compensation-stock-packages-11634321296",
+                "urlToImage": "https://images.wsj.net/im-417600/social",
+                "publishedAt": "2021-10-16T04:00:00Z",
+                "content": "Archer Aviation Inc.\r\nis years from producing its only planned product, a four-passenger electric air taxi that the main U.S. regulator hasnt yet certified. It hasnt generated any revenue.Still, the … [+17366 chars]"
+                }
+    ]
+    }
