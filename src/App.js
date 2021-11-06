@@ -3,7 +3,8 @@ import './App.css';
 
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
-import News from './components/News';
+import News   from './components/News';
+import LoadingBar from 'react-top-loading-bar'
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,20 +12,34 @@ import {
   
 } from "react-router-dom";
 export default class App extends Component {
+  state = {
+   progress:0
+  
+  }
+  setprogress = (progress)=>{
+    this.setState({
+      progress: progress
+    })
+  }
   
   render() {
     return (
       <div>
         <Router>
         <Navbar/>
+        <LoadingBar
+        color='#f11946'
+        progress={this.state.progress}
+    
+      />
         <Switch>
-        <Route exact path="/"><News  key="general"pagesize={5} country="in"  category="general"/></Route>
-        <Route exact path="/business"><News key="business"pagesize={5} country="in"  category="business"/></Route>
-        <Route exact path="/entertainment"><News key="entertainment"pagesize={5} country="in"  category="entertainment"/></Route>
-        <Route exact path="/health"><News key="health"pagesize={5} country="in"  category="health"/></Route>
-        <Route exact path="/science"><News key="science"pagesize={5} country="in"  category="science"/></Route>
-        <Route exact path="/sports"><News key="sports"pagesize={5} country="in"  category="sports"/></Route>
-        <Route exact path="/technology"><News key="technology" pagesize={5} country="in"  category="technology"/></Route>
+        <Route exact path="/"><News  setprogress = {this.setprogress}  key="general"pagesize={5} country="in"  category="general"/></Route>
+        <Route exact path="/business"><News  setprogress = {this.setprogress} key="business"pagesize={5} country="in"  category="business"/></Route>
+        <Route exact path="/entertainment"><News  setprogress = {this.setprogress} key="entertainment"pagesize={5} country="in"  category="entertainment"/></Route>
+        <Route exact path="/health"><News  setprogress = {this.setprogress} key="health"pagesize={5} country="in"  category="health"/></Route>
+        <Route exact path="/science"><News  setprogress = {this.setprogress} key="science"pagesize={5} country="in"  category="science"/></Route>
+        <Route exact path="/sports"><News  setprogress = {this.setprogress} key="sports"pagesize={5} country="in"  category="sports"/></Route>
+        <Route exact path="/technology"><News  setprogress = {this.setprogress} key="technology" pagesize={5} country="in"  category="technology"/></Route>
         
 
         </Switch>
